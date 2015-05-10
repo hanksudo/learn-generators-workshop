@@ -1,3 +1,4 @@
+// Delegating Generators
 function *flat(arr) {
     if (Array.isArray(arr)) {
         for (var i = 0; i < arr.length; i++) {
